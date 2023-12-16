@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+html {
+    font-size: 100%;
+}
+
+section {
+    background: #160430;
+    display: flex;
+    flex-wrap: wrap;
+}
+section .navbar {
+    height: 100vh;
+    display: grid;
+    gap: 28rem;
+}
+section .navbar p {
+    display: none;
+}
+section .navbar h2 {
+    margin-bottom: 1rem;
+    text-align: start;
+    padding: 0 4rem;
+    color: #FFF;
+    font-size: 50.683px;
+    font-weight: 700;
+    line-height: 51.5px; 
+    text-transform: uppercase;
+}
+section .navbar h2 span{
+    color: #9D5CE9;
+    font-size: 50.683px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.section .login .sign .text {
+    display: none;
+}
+.section .images {
+    float: left;
+    background-image: url(./images/Background\ Image.jpg), linear-gradient(180deg, #160430 0%, rgba(0, 0, 0, 0.00) 100%);
+    background-size: cover;
+    background-position: center;
+    width: 55%;
+    max-width: 800px;
+    height: 713px;
+}
+.section .images  h1 {
+    text-align: left;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 50.683px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 51.5px; 
+    text-transform: uppercase;
+}
+.section .images h1 span {
+    color: #9D5CE9;
+    font-family: Poppins;
+    font-size: 50.683px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 51.5px;
+    text-transform: uppercase;
+}
+.section .images img {
+    padding: 1rem 9%;
+}
+.section .images .mobil {
+    display: none;
+}
+
+.section .login {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section .login h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 700;
+}
+section .login p {
+    padding-top: 2rem;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15.041px;
+    font-weight: 700;
+}
+.section .login input {
+    text-align: center;
+    margin:1rem 0;
+    display: block;
+    border-radius: .5rem;
+    color: #B6B6B6;
+    padding: .8rem 5rem;
+    background: #261046; 
+    font-family: Poppins;
+}
+.section .login label, input {
+    border: none;
+}
+section .login .sign .chiziq {
+    position: absolute;
+    width: 20rem;
+    height: 1rem;
+    margin-top: 2rem;
+}
+
+section .login .button  {
+    cursor: pointer;
+    transition: all .4s linear;
+    border: none;
+    border-radius: 7px;
+    background: linear-gradient(90deg, #501794 0.03%, #3E70A1 101.88%);
+    padding: .4rem 7.6rem;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: #fff;
+}
+section .login .button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: all .4s linear;
+    background: #9D5CE9;
+}
+
+section .login .messenjer {
+    padding-top: 4rem;
+}
+
+section .login .messenjer h1 {
+    padding: 1rem 0;    
+    color: #B6B6B6;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+}
+section .login .messenjer p {
+    padding-top: 1.5rem;
+    color: #B6B6B6;
+    font-family: Poppins;
+    font-size: 12.534px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+section .login .messenjer p span {
+    color: #9D5CE9;
+}
+
+section .login .messenjer .rasm .gogle , .fasebok {
+    padding: .4rem 4.2rem;
+    background: #261046;
+    cursor: pointer;
+    margin-right: .5rem;
+    border-radius: .2rem;
+}
+
+section .login .messenjer .rasm .fasebok {
+    padding: .5rem 4.2rem;
+}
+
+/* MEDIA QISMI BOSHLAISHI */
+
+/* MEDIA QISMI BOSHLAISHI */
+
+@media (max-width:991px) {
+    section .navbar h2 {
+        display: none;
+    }
+
+    .section  {
+        display: flex;
+        flex-wrap: wrap;
+    } 
+    .section .images .navbar {
+        padding: 1rem 1rem;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+    }
+    .section .images .navbar .desctop {
+        max-width: 6rem;
+        height: 2rem;
+        padding: 0;
+    }
+    .section .images .navbar  p {
+        display: block;
+        color: #B6B6B6;
+        font-size: 12px;
+        background: red;
+        font-weight: 700;
+    }
+
+    .section .images  { 
+       height: 400px;
+       max-width: 1000px; 
+       background-image: url(./images/mobil.png);
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       width: 100%;
+    }
+    .section .images p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #B6B6B6;
+        font-family: Poppins;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.8px;
+    }
+    .section .login {
+        z-index: 1000;
+        background: #240B48;
+        width: 100%;
+        padding: 0 22px;
+    }
+    .section .login .sign .div h1{
+        font-size: 45px;
+    }
+    .section .login .sign .div p {
+        font-size: 15px;
+    }
+    .section .login .sign .div input {
+        width: 20rem;
+        height: 2.5rem;
+        border-radius: 8px;
+        background: #190733;
+        backdrop-filter: blur(6.0781121253967285px);
+    }
+    .section .login .sign .div .button {
+        width: 20rem;
+        font-size: 17px;
+        border-radius: 10px;
+        background: linear-gradient(90deg, #501794 0.03%, #3E70A1 101.88%);
+    }
+    section .login .messenjer .rasm .gogle , .fasebok {
+        padding: .4rem 4rem;
+        background: #160430;
+    }
+    
+    section .login .messenjer .rasm .fasebok {
+        padding: .5rem 4rem;
+    }
+    .login .sign .text  {
+        padding-top: 5rem;
+        margin-bottom: 9px;
+        text-align: center;
+        color: #60438C;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .section .login .sign .text {
+        display: block;
+    }
+}
+
+@media (max-width:370px) {
+    section .navbar h2 {
+        width: 0;
+        height: 0;
+        display: none;
+    }
+    .section .login .sign .div input {
+        width: 18rem;
+        height: 2.5rem;
+        border-radius: 8px;
+        background: #190733;
+        backdrop-filter: blur(6.0781121253967285px);
+    }
+    .section .login .sign .div .button {
+        padding: .4rem 7rem;
+        width: 18rem;
+        font-size: 15px;
+    }
+    section .login .messenjer .rasm .gogle , .fasebok {
+        padding: .4rem 3.5rem;
+        background: #160430;
+    }
+    
+    section .login .messenjer .rasm .fasebok {
+        padding: .5rem 3.5rem;
+    }
+    section .login .sign .chiziq {
+        width: 18rem;
+    }
+    section .login .messenjer p {
+        font-size: 11.2px;
+    }
+}
+
